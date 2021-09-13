@@ -5,6 +5,6 @@
 ## 2주차
   - Github 사용법
 
-<img width="400" height="300" src="./png/20173065_박지현_2주차출석과제.png"></img>
+<img width="400" height="800" src="./png/20173065_박지현_2주차출석과제.png"></img>
   
 
