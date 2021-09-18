@@ -11,5 +11,6 @@
 <img width="400" height="800" src="./png/20173065_박지현_2주차출석과제.png"></img>
   
 ## 3주차
-
+<img width="400" height="800" src="./png/20173065_박지현_3주차출석과제1.png"></img>
+<img width="400" height="800" src="./png/20173065_박지현_3주차출석과제2.png"></img>
 
