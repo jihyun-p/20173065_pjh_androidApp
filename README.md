@@ -30,20 +30,7 @@
 <img width="200" height="400" src="./png/20173065_박지현_6주차출석과제3.png"></img>
 <img width="200" height="400" src="./png/20173065_박지현_6주차출석과제4.png"></img>
 
-코딩 수식
-package com.example.test_scrollview_application;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.res.Resources;
-import android.graphics.drawable.BitmapDrawable;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.ScrollView;
-import android.widget.Toast;
-
-public class MainActivity extends AppCompatActivity {
+<코딩 수식>
 
     ScrollView scrollView;
     ImageView imageView;
