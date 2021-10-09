@@ -29,3 +29,72 @@
 <img width="200" height="400" src="./png/20173065_박지현_6주차출석과제2.png"></img>
 <img width="200" height="400" src="./png/20173065_박지현_6주차출석과제3.png"></img>
 <img width="200" height="400" src="./png/20173065_박지현_6주차출석과제4.png"></img>
+
+코딩 수식
+package com.example.test_scrollview_application;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.res.Resources;
+import android.graphics.drawable.BitmapDrawable;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.ScrollView;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+
+    ScrollView scrollView;
+    ImageView imageView;
+    BitmapDrawable bitmap;
+    String Width;
+    String Height;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        scrollView = findViewById(R.id.verScrollVIew);
+        imageView = findViewById(R.id.imageView);
+        scrollView.setHorizontalScrollBarEnabled(true);
+
+        Resources res = getResources();
+        bitmap = (BitmapDrawable) res.getDrawable(R.drawable.image01);
+        int bitmapWidth = bitmap.getIntrinsicWidth();
+        int bitmapHeight = bitmap.getIntrinsicHeight();
+
+        Width = Integer.toString(bitmapWidth);
+        Height = Integer.toString(bitmapHeight);
+
+        imageView.setImageDrawable(bitmap);
+        imageView.getLayoutParams().width = bitmapWidth;
+        imageView.getLayoutParams().height = bitmapHeight;
+
+    }
+    public void btnClicked(View v)
+    {
+        changeImage();
+    }
+    private void changeImage()
+    {
+        Resources res = getResources();
+        bitmap = (BitmapDrawable) res.getDrawable(R.drawable.image02);
+        int bitmapWidth = bitmap.getIntrinsicWidth();
+        int bitmapHeight = bitmap.getIntrinsicHeight();
+
+
+        imageView.setImageDrawable(bitmap);
+        imageView.getLayoutParams().width = bitmapWidth;
+        imageView.getLayoutParams().height = bitmapHeight;
+    }
+    public void btnWClicked(View v)
+    {
+        Toast.makeText(this,Width,Toast.LENGTH_LONG).show();
+    }
+    public void btnHClicked(View v)
+    {
+        Toast.makeText(this,Height,Toast.LENGTH_LONG).show();
+    }
+
