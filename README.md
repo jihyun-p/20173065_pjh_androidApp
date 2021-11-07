@@ -220,3 +220,9 @@
 
 ## 9주차
 <img width="800" height="400" src="./png/20173065_박지현_9주차출석과제.png"></img>
+
+## 10주차
+<img width="200" height="400" src="./png/20173065_박지현_10주차출석과제1.png"></img>
+<img width="200" height="400" src="./png/20173065_박지현_10주차출석과제2.png"></img>
+<img width="200" height="400" src="./png/20173065_박지현_10주차출석과제3.png"></img>
+<img width="200" height="400" src="./png/20173065_박지현_10주차출석과제4.png"></img>
